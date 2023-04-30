@@ -88,7 +88,7 @@ _____________
 13 3 10 20 \
 21 1 15 10 \
 22 2 15 20 \
-23 3 15 10 \
+23 3 15 10 
 _____________
 
 Não executei o programa ainda, mas a saída para essa entrada, em uma máquina que não esteja sobrecarregada, deve ser a como a lista a seguir. As linhas com um mesmo timestamp (o primeiro inteiro) podem aparecer em ordens diferentes. O tempo total de execução deveria ser da casa de 5 segundos. Mudanças nesse tempo total podem indicar erros na sincronização (mas pequenas variações são possíveis).
@@ -117,7 +117,7 @@ Não executei o programa ainda, mas a saída para essa entrada, em uma máquina 
 30:23:3:T+(10) \
 40:21:1:T- \
 40:23:3:T- \
-50:22:2:T- \
+50:22:2:T- 
 
 ------------
 (No momento, essa saída foi gerada manualmente, sem a execução do programa - isto é, podem haver erros.)
