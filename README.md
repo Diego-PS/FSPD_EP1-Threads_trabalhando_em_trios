@@ -83,41 +83,41 @@ Exemplo de entrada:
 Segundo o formato definido, as linhas a seguir definem 6 threads, duas de cada tipo.
 
 _____________
-11 1 10 20
-12 2 10 10
-13 3 10 20
-21 1 15 10
-22 2 15 20
-23 3 15 10
+11 1 10 20&nbsp;
+12 2 10 10&nbsp;
+13 3 10 20&nbsp;
+21 1 15 10&nbsp;
+22 2 15 20&nbsp;
+23 3 15 10&nbsp;
 _____________
 
 Não executei o programa ainda, mas a saída para essa entrada, em uma máquina que não esteja sobrecarregada, deve ser a como a lista a seguir. As linhas com um mesmo timestamp (o primeiro inteiro) podem aparecer em ordens diferentes. O tempo total de execução deveria ser da casa de 5 segundos. Mudanças nesse tempo total podem indicar erros na sincronização (mas pequenas variações são possíveis).
 
 -------------
-0:11:1:S+(10)
-0:12:2:S+(10)
-0:13:3:S+(10)
-0:21:1:S+(15)
-0:22:2:S+(15)
-0:23:3:S+(15)
-10:11:1:S-
-10:12:2:S-
-10:13:3:S-
-10:11:1:T+(20)
-10:12:2:T+(10)
-10:13:3:T+(20)
-15:21:1:S-
-15:22:2:S-
-15:23:3:S-
-20:12:2:T-
-30:11:1:T-
-30:13:3:T-
-30:21:1:T+(10)
-30:22:2:T+(20)
-30:23:3:T+(10)
-40:21:1:T-
-40:23:3:T-
-50:22:2:T-
+0:11:1:S+(10)&nbsp;
+0:12:2:S+(10)&nbsp;
+0:13:3:S+(10)&nbsp;
+0:21:1:S+(15)&nbsp;
+0:22:2:S+(15)&nbsp;
+0:23:3:S+(15)&nbsp;
+10:11:1:S-&nbsp;
+10:12:2:S-&nbsp;
+10:13:3:S-&nbsp;
+10:11:1:T+(20)&nbsp;
+10:12:2:T+(10)&nbsp;
+10:13:3:T+(20)&nbsp;
+15:21:1:S-&nbsp;
+15:22:2:S-&nbsp;
+15:23:3:S-&nbsp;
+20:12:2:T-&nbsp;
+30:11:1:T-&nbsp;
+30:13:3:T-&nbsp;
+30:21:1:T+(10)&nbsp;
+30:22:2:T+(20)&nbsp;
+30:23:3:T+(10)&nbsp;
+40:21:1:T-&nbsp;
+40:23:3:T-&nbsp;
+50:22:2:T-&nbsp;
 
 ------------
 (No momento, essa saída foi gerada manualmente, sem a execução do programa - isto é, podem haver erros.)
