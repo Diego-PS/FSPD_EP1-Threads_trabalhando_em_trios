@@ -82,14 +82,15 @@ Usem o fórum criado especialmente para esse exercício de programação para en
 Exemplo de entrada:
 Segundo o formato definido, as linhas a seguir definem 6 threads, duas de cada tipo.
 
--------------
+_____________
 11 1 10 20
 12 2 10 10
 13 3 10 20
 21 1 15 10
 22 2 15 20
 23 3 15 10
--------------
+_____________
+
 Não executei o programa ainda, mas a saída para essa entrada, em uma máquina que não esteja sobrecarregada, deve ser a como a lista a seguir. As linhas com um mesmo timestamp (o primeiro inteiro) podem aparecer em ordens diferentes. O tempo total de execução deveria ser da casa de 5 segundos. Mudanças nesse tempo total podem indicar erros na sincronização (mas pequenas variações são possíveis).
 
 -------------
