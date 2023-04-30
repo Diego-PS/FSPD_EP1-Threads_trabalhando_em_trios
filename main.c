@@ -68,4 +68,6 @@ int main ()
     for (int i = 0; i < N; i++) {
         pthread_join(threads[i], NULL);
     }
+
+    destroy_trio(&trio);
 }
