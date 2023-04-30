@@ -31,6 +31,8 @@ void* executar_thread(void *thread_args)
     trio_enter(&trio, ttype);
     spend_time(tid, ttype, "T", ttrio);
     trio_leave(&trio, ttype);
+
+    return NULL;
 }
 
 /****************************************************************************
@@ -70,4 +72,6 @@ int main ()
     }
 
     destroy_trio(&trio);
+
+    return 0;
 }
